@@ -7,7 +7,6 @@ import Profile from "./pages/profile/Profile";
 import { 
   Routes, 
   Route, 
-  BrowserRouter as Router
 } from "react-router-dom";
 
 function App() {

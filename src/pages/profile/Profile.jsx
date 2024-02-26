@@ -14,8 +14,8 @@ export default function Profile() {
         <div className="profileRight">
                 <div className="profileRightTop">
                     <div className="profileCover">
-                      <img className="profileCoverImg" src="./assets/team/avatar.jpg" alt="pix" />
-                      <img className="profileUserImg" src="./assets/team/girl.png" alt="pix" />
+                      <img className="profileCoverImg" src="./assets/team/avatar.jpg" alt="avatar" />
+                      <img className="profileUserImg" src="./assets/team/girl.png" alt="person" />
                     </div>
                     <div className="profileInfo">
                       <h4 className="profileInfoName">Ada Abia</h4>

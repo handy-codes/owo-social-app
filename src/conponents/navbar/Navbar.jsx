@@ -49,7 +49,7 @@ export default function Navbar() {
                     <Notifications/>
                     <span className="topbarIconBadge">1</span>
                 </div>
-                <img src="./assets/team/1.jpg" alt="" className="topbarImg" />
+                <img src="./assets/team/1.jpg" alt="friend" className="topbarImg" />
             </div>
         </div>
     </div>

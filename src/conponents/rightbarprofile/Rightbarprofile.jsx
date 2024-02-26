@@ -1,30 +1,33 @@
 import "./rightbarprofile.css"
-import {Users} from "../../dummyData";
-import Online from "../online/Online";
+// import {Users} from "../../dummyData";
+// import Online from "../online/Online";
 
-export default function Rightbarprofile({profile}) {
+// export default function Rightbarprofile({profile}) {
 
-const HomeRightbar = () => {
-  return(
-    <>
-          <div className="birthdayContainer">
-            <img className="birthdayImg" src="./assets/team/1.png" alt="hennessy" />   
-            <span className="birthdayText">
-            <b>Pola Foster</b> and <b>3 other friends</b> had a cool hang out today!
-            </span>
-          </div>
-            <img src="./assets/team/hennessyad.jpg" alt="" className="rightbarAd" />
-            <h4 className="rightbarTitle">Online Friends</h4>
-           <ul className="rightbarFriendList">
-            {Users.map((u) => (
-              <Online key={u.id} user={u}/>
-            ))}
-           </ul>
-    </>
-  );
-}
 
-const ProfileRightbar = () =>{
+
+// const HomeRightbar = () => {
+//   return(
+//     <>
+//           <div className="birthdayContainer">
+//             <img className="birthdayImg" src="./assets/team/1.png" alt="hennessy" />   
+//             <span className="birthdayText">
+//             <b>Pola Foster</b> and <b>3 other friends</b> had a cool hang out today!
+//             </span>
+//           </div>
+//             <img src="./assets/team/hennessyad.jpg" alt="ad logo" className="rightbarAd" />
+//             <h4 className="rightbarTitle">Online Friends</h4>
+//            <ul className="rightbarFriendList">
+//             {Users.map((u) => (
+//               <Online key={u.id} user={u}/>
+//             ))}
+//            </ul>
+//     </>
+//   );
+// }
+export default function Rightbarprofile() {
+
+// const ProfileRightbar = () =>{
   return (
     <>
     <h4 className="rightbarTitle">User information</h4>
@@ -78,11 +81,11 @@ const ProfileRightbar = () =>{
   );
 }
 
-  return (
-    <div className="rightbar">
-        <div className="rightbarWrapper">
-          <ProfileRightbar/>
-        </div>
-    </div>
-  );
-}
+//   return (
+//     <div className="rightbar">
+//         <div className="rightbarWrapper">
+//           <ProfileRightbar/>
+//         </div>
+//     </div>
+//   );
+// }

@@ -16,7 +16,7 @@ return (
         <div className="postWrapper">
             <div className="postTop">
                 <div className="postTopLeft">
-                    <img src={Users.filter(u=>u.id === post.userId)[0].profilePicture} alt="" className="postProfileImg" />
+                    <img src={Users.filter(u=>u.id === post.userId)[0].profilePicture} alt="our member" className="postProfileImg" />
                     <span className="postUsername">{Users.filter(u=>u.id === post.userId)[0].username} </span>
                     <span className="postDate">{post.date} </span>
                 </div>
@@ -30,8 +30,8 @@ return (
             </div>
             <div className="postBottom">
                 <div className="postBottomLeft">
-                    <img className="likeIcon" src="./assets/team/like.png" onClick={likeHandler} alt="like_image" />
-                    <img className="likeIcon" src="./assets/team/heart.jpg" onClick={likeHandler} alt="heart_image" />
+                    <img className="likeIcon" src="./assets/team/like.png" onClick={likeHandler} alt="like_image"/>
+                    <img className="likeIcon" src="./assets/team/heart.jpg" onClick={likeHandler} alt="heart_image"/>
                     <span className="postlikeCounter">{like} people like it</span>
                 </div>
                 <div className="postBottomRight">
