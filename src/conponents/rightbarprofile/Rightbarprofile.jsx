@@ -48,31 +48,31 @@ export default function Rightbarprofile() {
     <h4 className="rightbarTitle">User friends</h4>
     <div className="rightbarFollowings">
       <div className="rightbarFollowing">
-        <img src="./assets/team/4.jpg" alt="picture" className="rightbarFollowingImg"/>
+        <img src="./assets/team/4.jpg" alt="a person" className="rightbarFollowingImg"/>
         <span className="rightbarFollowingName">Osuofia</span>
       </div>
       <div className="rightbarFollowing">
-        <img src="./assets/team/team-.jpg" alt="picture" className="rightbarFollowingImg"/>
+        <img src="./assets/team/team-.jpg" alt="a person" className="rightbarFollowingImg"/>
         <span className="rightbarFollowingName">Mr Ibu</span>
       </div>
       <div className="rightbarFollowing">
-        <img src="./assets/team/team-1.jpg" alt="picture" className="rightbarFollowingImg"/>
+        <img src="./assets/team/team-1.jpg" alt="person" className="rightbarFollowingImg"/>
         <span className="rightbarFollowingName">Ada Abia</span>
       </div>
       <div className="rightbarFollowing">
-        <img src="./assets/team/team-3.jpg" alt="picture" className="rightbarFollowingImg"/>
+        <img src="./assets/team/team-3.jpg" alt="person" className="rightbarFollowingImg"/>
         <span className="rightbarFollowingName">Nick Bull</span>
       </div>
       <div className="rightbarFollowing">
-        <img src="./assets/team/3.png" alt="picture" className="rightbarFollowingImg"/>
+        <img src="./assets/team/3.png" alt="person" className="rightbarFollowingImg"/>
         <span className="rightbarFollowingName">Ozi Oma</span>
       </div>
       <div className="rightbarFollowing">
-        <img src="./assets/team/3.jpg" alt="picture" className="rightbarFollowingImg"/>
+        <img src="./assets/team/3.jpg" alt="person" className="rightbarFollowingImg"/>
         <span className="rightbarFollowingName">Guy Richie</span>
       </div>
       <div className="rightbarFollowing">
-        <img src="./assets/team/2.jpg" alt="picture" className="rightbarFollowingImg"/>
+        <img src="./assets/team/2.jpg" alt="person" className="rightbarFollowingImg"/>
         <span className="rightbarFollowingName">Akachi Diya</span>
     </div>
     </div>
