@@ -31,11 +31,9 @@ export default function Navbar() {
                 <Route index element={<Home/>} />
                 <Route path="profile" element={<Profile/>} />
                 <Route path="login" element={<Login/>} />
-             </Routes>
- 
-                {/* <span className="topbarLink">Home</span> */}
-                {/* <span className="topbarLink">Profile</span> */}
+             </Routes> 
             </div>
+            
             <div className="topbarIcons">
                 <div className="topbarIconItem">
                     <Person/>
