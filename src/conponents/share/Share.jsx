@@ -24,11 +24,11 @@ export default function Share() {
                     </div>
                     <div className="shareOption">
                         <Room htmlColor="blue" className="shareIcon"/>
-                        <span className="shareOptionText">Location</span>
+                        <span className="one shareOptionText">Location</span>
                     </div>
-                    <div className="shareOption">
+                    <div className="two shareOption">
                         <EmojiEmotions htmlColor="goldenrod" className="shareIcon"/>
-                        <span className="shareOptionText">Feelings</span>
+                        <span className="two shareOptionText">Feelings</span>
                     </div>
                 </div>
             </form>

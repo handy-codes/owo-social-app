@@ -1,5 +1,6 @@
 .rightbar{
-    flex: 3.5;    
+    flex: 3.5; 
+    overflow: hidden;  
 }
 
 .rightbarWrapper{
@@ -38,3 +39,15 @@
     list-style: none;
 }
 
+.hennessy{
+    overflow: hidden;
+}
+   
+.rightbarWrapper .hennessy img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.rightbarWrapper .hennessy:hover img{
+    transform: scale(1.15);
+}

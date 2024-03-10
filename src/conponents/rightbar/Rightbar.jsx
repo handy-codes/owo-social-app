@@ -13,7 +13,9 @@ export default function Rightbar1() {
                     <b>Agwabunma Owo </b> and <b>3 other friend</b> like this
                 </span>
             </div>
+            <div className="hennessy">
             <img src="./assets/team/hennessyad.jpg" alt="hennessy" className="rightbarAd" />
+            </div>
             <h4 className="rightbarTitle">Online Friends</h4>
             <ul className="rightbarFriendList">
                 {Users.map(u=>(
