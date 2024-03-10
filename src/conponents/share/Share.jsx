@@ -17,6 +17,7 @@ export default function Share() {
                         <span className="shareOptionText">Photo or Videos</span>
                         <input style={{display:"none"}} type="file" id="file" accept=".png, .jpeg, .jpg"/>
                     </label>
+                    <button className="shareButton" typle="submit">Share</button>
                     <div className="shareOption">
                         <Label htmlColor="green" className="shareIcon"/>
                         <span className="shareOptionText">Tag</span>
@@ -30,7 +31,6 @@ export default function Share() {
                         <span className="shareOptionText">Feelings</span>
                     </div>
                 </div>
-                <button className="shareButton" typle="submit">Share</button>
             </form>
         </div>
     </div>

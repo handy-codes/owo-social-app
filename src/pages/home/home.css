@@ -3,15 +3,28 @@
     width: 100%;
 }
 
-@media (max-width: 899px) {
+/* @media (max-width: 899px) { */
+  @media (1px <= width  <=  899px) {
     .rightbar {
       display: none;
     }
+
+    /* .shareOptions{
+      flex-direction: column;
+    } */
 
     .sidebar {
         display: none;
       }
       
+      .feed{
+        width: 100vw;
+      }
+
+      .share{
+        width: 100vw;
+      }
+
     .navbar{
       overflow: hidden;
     }
