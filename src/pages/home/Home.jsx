@@ -5,8 +5,6 @@ import Feeds from "../../conponents/feed/Feeds";
 import Rightbar from "../../conponents/rightbar/Rightbar";
 import Topbar from "../../conponents/topbar/Topbar";
 
-
-
 export default function Home() {
   return (
     <>

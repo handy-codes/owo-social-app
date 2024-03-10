@@ -10,7 +10,15 @@
 
     .sidebar {
         display: none;
-      }  
+      }
+      
+    .navbar{
+      overflow: hidden;
+    }
+
+    .homeContainer{
+      overflow: hidden;
+    }    
 }
 
 @media (900px <= width  <=  1099px) {

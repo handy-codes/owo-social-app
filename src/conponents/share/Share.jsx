@@ -10,12 +10,13 @@ export default function Share() {
                 <input placeholder="What's in your mind Ada Abia?" className="shareInput"/>
             </div>
             <hr className="shareHr" />
-            <div className="shareBottom">
+            <form className="shareBottom" >
                 <div className="shareOptions">
-                    <div className="shareOption">
+                    <label htmlFor="file" className="shareOption">
                         <PermMedia htmlColor="tomato" className="shareIcon"/>
                         <span className="shareOptionText">Photo or Videos</span>
-                    </div>
+                        <input style={{display:"none"}} type="file" id="file" accept=".png, .jpeg, .jpg"/>
+                    </label>
                     <div className="shareOption">
                         <Label htmlColor="green" className="shareIcon"/>
                         <span className="shareOptionText">Tag</span>
@@ -29,8 +30,8 @@ export default function Share() {
                         <span className="shareOptionText">Feelings</span>
                     </div>
                 </div>
-                <button className="shareButton">Share</button>
-            </div>
+                <button className="shareButton" typle="submit">Share</button>
+            </form>
         </div>
     </div>
   )
