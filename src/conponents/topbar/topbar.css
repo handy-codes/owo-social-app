@@ -101,3 +101,9 @@
     object-fit: cover;
     cursor: pointer;
 }
+
+@media (1px <= width  <=  899px) {
+    .searchbar {
+      display: none;
+    }
+}

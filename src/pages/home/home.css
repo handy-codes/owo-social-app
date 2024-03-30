@@ -40,10 +40,12 @@
     .searchIcon{
       display: none;
     }
+
 }
 
 @media (900px <= width  <=  1099px) {
   .sidebar {
       display: none;
     }  
+
 }
