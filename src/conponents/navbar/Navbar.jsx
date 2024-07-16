@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="topbarRight">
             <div className="topbarLinks">
              <nav>
-                 <Link to="/" className="topbarLink">Home</Link>
+                 <Link to="/" className="topbarLink">Bethel</Link>
                  <Link to="/profile" className="topbarLink">Profile</Link> 
                  <Link to="/login" className="topbarLink">Login</Link>
              </nav>  
