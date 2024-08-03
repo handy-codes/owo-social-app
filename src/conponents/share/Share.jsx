@@ -15,9 +15,9 @@ export default function Share() {
                     <label htmlFor="file" className="shareOption file">
                         <PermMedia htmlColor="tomato" className="shareIcon"/>
                         <span className="shareOptionText">Photo or Videos</span>
-                        <input style={{display:"none"}} type="file" id="file" accept=".png, .jpeg, .jpg"/>
+                        <input style={{display:"none"}} type="text" id="file" accept=".png, .jpeg, .jpg"/>
                     </label>
-                    <button className="shareButton" typle="submit">Share</button>
+                    <button className="shareButton" type="button">Share</button>
                     <div className="shareOption show1">
                         <Label htmlColor="green" className="shareIcon"/>
                         <span className="shareOptionText">Tag</span>
