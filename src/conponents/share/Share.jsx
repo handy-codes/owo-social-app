@@ -12,17 +12,17 @@ export default function Share() {
             <hr className="shareHr" />
             <form className="shareBottom" >
                 <div className="shareOptions">
-                    <label htmlFor="file" className="shareOption">
+                    <label htmlFor="file" className="shareOption file">
                         <PermMedia htmlColor="tomato" className="shareIcon"/>
                         <span className="shareOptionText">Photo or Videos</span>
                         <input style={{display:"none"}} type="file" id="file" accept=".png, .jpeg, .jpg"/>
                     </label>
                     <button className="shareButton" typle="submit">Share</button>
-                    <div className="shareOption">
+                    <div className="shareOption show1">
                         <Label htmlColor="green" className="shareIcon"/>
                         <span className="shareOptionText">Tag</span>
                     </div>
-                    <div className="shareOption">
+                    <div className="shareOption show2">
                         <Room htmlColor="blue" className="shareIcon"/>
                         <span className="one shareOptionText">Location</span>
                     </div>

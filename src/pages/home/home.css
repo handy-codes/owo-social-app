@@ -3,49 +3,23 @@
     width: 100%;
 }
 
-/* @media (max-width: 899px) { */
-  @media (1px <= width  <=  899px) {
+  @media (max-width: 720px) {
     .rightbar {
       display: none;
     }
 
-    /* .shareOptions{
-      flex-direction: column;
-    } */
-
     .sidebar {
-        display: none;
-      }
-      
-      .feed{
-        width: 100vw;
-      }
-
-      .share{
-        width: 100vw;
-      }
-
-    .navbar{
-      overflow: hidden;
-    }
-
-    .homeContainer{
-      overflow: hidden;
-    }    
-
-    .one, .two{
       display: none;
     }
+  }
 
-    .searchIcon{
+  @media ((721px <= width  <=  910px)) {
+    .sidebar {
       display: none;
     }
+  }
 
-}
 
-@media (900px <= width  <=  1099px) {
-  .sidebar {
-      display: none;
-    }  
 
-}
+
+

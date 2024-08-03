@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="topbarLeft">
             <span className="logo">Factbook</span>
         </div>
-        <div className="topbarCenter">
+        {/* <div className="topbarCenter">
             <div className="searchbar">
                 <Search className="searchIcon"/>
                 <input placeholder="Search for friends, posts or videos" className="searchInput" />
@@ -47,7 +47,7 @@ export default function Navbar() {
                 </div>
                 <img src="./assets/team/1.jpg" alt="friend" className="topbarImg" />
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

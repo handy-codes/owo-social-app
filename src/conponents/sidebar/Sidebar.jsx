@@ -20,7 +20,6 @@ export default function Sidebar() {
             <PlayCircleFilledOutlined className="sidebarIcon"/>
             <span className="sidebarListItemText">Videos</span>
           </li>
-
           <li className="sidebarListItem">
             <Group className="sidebarIcon"/>
             <span className="sidebarListItemText">Groups</span>

@@ -6,7 +6,6 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
         <div className="topbarLeft">
-
         <Link to="/" className="logo">Owosocial</Link>
         </div>
         <div className="topbarCenter">

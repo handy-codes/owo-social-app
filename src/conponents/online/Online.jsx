@@ -2,7 +2,7 @@ import "./online.css"
 
 export default function Online({user}) {
   return (
-    <li className="rightbarFriend">
+  <li className="rightbarFriend">
     <div className="rightbarProfileImgContainer">
       <img src={user.profilePicture} alt="person_pic" className="rightbarProfileImg" />
       <span className="rightbarOnline"></span>
